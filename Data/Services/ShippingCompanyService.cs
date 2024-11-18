@@ -1,4 +1,5 @@
 ﻿using Data.Interfaces;
+using Domain.Models;
 
 namespace Data.Services
 {
@@ -10,20 +11,20 @@ namespace Data.Services
             throw new NotImplementedException();
         }
 
-        public void Delete(Guid id)
+        public ShippingCompany Read(Guid id)
         {
             throw new NotImplementedException();
         }
-
 
         public void Update(Guid id, T Company)
         {
             throw new NotImplementedException();
         }
-
-        public void Run()
+        
+        public void Delete(Guid id)
         {
-            Console.WriteLine("Hello World with the help of depedency injection!");
+            throw new NotImplementedException();
         }
+
     }
 }

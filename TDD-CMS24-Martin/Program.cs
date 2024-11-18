@@ -22,7 +22,6 @@ namespace TDD_CMS24_Martin
                 .Build();
 
             var app = _host.Services.GetRequiredService<ShippingCompanyService<ShippingCompany>>();
-            app.Run();
         }
     }
 }
